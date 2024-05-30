@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack</title>
+    <style>
+      body{
+        background-color: slateblue;
+        color: black;
+      }
+      h1{
+        text-align: center;
+      }
+      form{
+       margin-left: auto;
+       margin-right: auto;
+        text-align: center;
+        border: 1px solid black;
+        padding-top: 50px;
+        height: 500px;
+        background-color: white;
+        color: black;
+        width: 50%;
+      }
+      .rad{
+        margin-bottom: 10px;
+      }
+      textarea{
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form action="thankyou.html">
+        <label for="name">Name: </label>
+        <input type="text" name="fname" placeholder="Enter your name" class="rad" id="name"><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="Enter your mail id" class="rad" id="email"><br>
+        <label for="usn">USN: </label>
+        <input type="text" name="usn" placeholder="Enter your usn" class="rad" id="usn"><br>
+        <label for="phone">Phone: </label>
+        <input type="tel" name="phone" placeholder="Enter phone number" class="rad" id="phone"><br>
+        <label for ="semester">Sem:</label>
+        <select name="semester" id="semester">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select><br><br>
+        Branch:<br>
+        <input type="radio" class="rad" name="branch" value="CS" >CS</input><br>
+        <input type="radio" class="rad" name="branch" value="IS">IS</input><br>
+        <input type="radio" class="rad" name="branch" value="ECE">ECE</input><br>
+        <br>
+        <input type="checkbox" name="send" checked>Send copy of feedback to mail</input><br><br>
+        <textarea name="feedback" rows="5" cols="30" placeholder="Type Here"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

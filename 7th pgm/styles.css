@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background-color: #d8e1e2;
+    text-align: center;
+}
+form {
+    background-color: #c70db8;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    width: 40%;
+    margin-left: 440px;
+}
+input,select {
+    display: block;
+    margin: 5px auto;
+    border: none;
+    width: 20%;
+    border-bottom: solid black 1px;
+    background-color: rgb(253, 233, 255);
+    padding: 5px;
+}
+button {
+    padding: 10px;
+    font-size: 20px;
+}
+textarea {
+    display: block;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex input{
+    width: 10px;
+    margin: 0 10px;
+}
